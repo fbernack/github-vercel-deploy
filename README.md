@@ -13,4 +13,4 @@ Have a look at the pipelines in this repository. Both require some environment v
 
 ## Vercel config
 
-To initially create a Vercel project from your local machine, run `vercel link` (after you logged in via `vercel login`). This will create a project in the Vercel cloud and furthermore it will create a subfolder `.vercel` in your project where you can find the `projectId` and the `orgId` which you need to run the pipelines. Furthermore you need a API acess token. You can get this directly [from Vercel](https://vercel.com/account/tokens).
+To initially create a Vercel project from your local machine, install Vercel CLI via `npm i -g vercel`, login with `vercel login` and then run `vercel link`. This will create a project in the Vercel cloud and furthermore it will create a subfolder `.vercel` in your project where you can find the `projectId` and the `orgId` which you need to run the pipelines. Furthermore you need a API acess token. You can get this directly [from Vercel](https://vercel.com/account/tokens).
